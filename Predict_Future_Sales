@@ -1,0 +1,25 @@
+!pip install hvplot
+
+import pandas
+import pandas as pd
+pd.set_option('display.max_rows', 500)
+pd.set_option('display.max_columns', 100)
+
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import hvplot.pandas
+from sklearn.impute import KNNImputer
+pandas.__version__
+
+#ワードクラウド
+from wordcloud import WordCloud
+from wordcloud import STOPWORDS
+#参照
+#https://github.com/ksk-portfolio/data_analytics/blob/master/Predict_Future_Sales.ipynb
+
+# ロシアの祝日情報を取得するために 'holidays' ライブラリをインストール
+!pip install holidays
+import holidays
+
+import lightgbm as lgb
